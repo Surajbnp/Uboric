@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products : All Products</title>
+        <link rel="stylesheet" href="inner.css">
+        <link rel="stylesheet" href="HomePage.css">
+        <link rel="icon" type="image" href="orderimage/tittle.png">
+
+        
+    </head>
+    <body>
+     
+      <div class="mainbar">
+        <div class="offer">FOR ONLINE PAYMENT EXTRA ₹100 DISCOUNT ON ORDERS ABOVE ₹500</div>
+        <div class="main">
+            <input placeholder=" Search here..." type="text">
+            <img src="https://cdn-eejao.nitrocdn.com/aUyhaTMTaXVfRwsVoyqMOLZSqxNvcIZc/assets/static/optimized/rev-3bd705e/wp-content/uploads/2021/04/uboric.svg" alt="" width="15%">
+            <div class="small">
+                <div class="sign">SignUp</div>
+                <div  onclick="window.location.href='cartpage.html'">Cart</div>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="home">Home</div>
+            <div id="choose">
+               Product
+            </div>
+            <div class="login">Login</div>
+            <div>About</div>
+            <div style="width: 150px;">Become A Seller</div>
+        </div>
+    </div>
+
+
+      <div class="container">
+
+        <div id="container">
+          <p style="color: black;font-size: 27px;padding-left: 80px;text-shadow: teal 1px 7px 9px;line-height: 10px;">FILTER</p>
+          <div><p style="padding-left: 28px; font-size: 24px;color: teal;line-height: 0px;">Sub category<br>
+            <select id="skin-cat" onchange="skincategory()">
+              <option value="">category</option>
+              <option value="shoes">Shoes</option>
+              <option value="slippers">slippers</option>
+              <option value="crocks">crocks</option>
+              <option value="snikkers">Snikkers</option>
+            </select>
+          </p>
+          </div>
+          <hr>
+          <div><p style="padding-left: 28px; font-size: 24px;color: teal;line-height: 0px;">Brand
+            <select id="skinbrand" onchange="skinbrands()">
+              <option value="woodland">Woodland</option>
+              <option value="G.series">G.series</option>
+              <option value="Banish">Banish</option>
+             
+            </select>
+          </p>
+          </div>
+          <hr>
+          <div><p style="padding-left: 28px; font-size: 24px;color: teal;line-height: 0px;">Price
+            <select id="sort" onchange="pricesorting()">
+              <option>Popularity</option>
+              <option value="low">Price Low to High</option>
+              <option value="high">Price High to Low</option>
+            </select>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="products">
+          <div id="sorting_col">
+            <div><h1 id="skin">Products</h1></div>
+           
+          </div>
+
+          <div id="product_col"></div>
+        </div>
+      </div>
+    </div>     
+  </div>
+
+  <footer>
+    <div class="foot">
+        <h1>The Ultimate Domestic Online Shopping Experience Platform in India</h1>
+    </div>
+
+    <div class="para">
+        Online shopping with Uboric is quick, convenient and trouble-free.
+         You can shop for the desired product right from the comfort of your home and 
+         get them delivered straight to your doorstep. Uboric offers you the chance to
+          choose top branded products sitting in the comfort of your homes and just 
+          clicking on your requirements to get it delivered at your doorstep. Your
+           search for the latest trending variety of unique products ends right
+            here. A wide range of international products from global brands are
+            available at your fingertips. We provide you with a world-class online
+             shopping experience, along with superior service, to suit all your 
+             specific requirements. Our products are very reasonably priced and 
+             are not easily available elsewhere. Our high-end technology-based 
+             systems, combined with a human approach, ensure that you have an
+              amazing and blissful online shopping experience with us. Our emphasis
+               on customer delight drives every activity we undertake to provide
+                you an ultimate, hassle-free and pleasant shopping experience. Our 
+                diverse categories of products comprise of fashion & jewellery, 
+                mobiles and tablets, home and furniture, electronics, health care
+                 and supplements, sports and fitness, beauty and perfumes. We offer
+                  almost every variety of product that your heart desires. Just Go
+                   Ahead and Explore the magical world of online shopping with Uboric!
+                    24×7 Customer Care: For all your queries and concerns regarding your shopping orders.
+    </div>
+</footer>
+    </body>
+</html>
+
+<script src="innerpage.js"></script>
+<script>
+  var home = document.querySelector(".home").addEventListener("click",home);
+
+  function home(event){
+    event.preventDefault();
+    window.location.href="homepage.html"
+  }
+</script>

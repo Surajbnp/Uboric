@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+    <title>PharmEasy : Cart</title>
+    <link rel="stylesheet" href="cartpage.css">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="icon" type="image" href="orderimage/tittle.png">
+</head>
+<body>
+   
+      
+<!-- navbar ended -->
+
+    <div id= "h3">
+    <h3>items in cart</h3></div>
+    <button id="gotocart" onclick="window.location.href ='Venisua.html'">Back To Product</button>
+    <div id="section">
+    <div id="cartside">
+    <div id="main">  
+        <div >
+            <img  class="imgdiv" src="" alt="">
+        </div>
+        <div class="textdiv">
+            <h5 id="n"></h5>
+            <p id="p"></p>
+            <p id="q"></p>
+            <p id="t"></p>
+            <!-- <select id="qty" onchange="onchange()">
+                <option>Quantity</option>
+                <option>1</option>
+                <option>2</option>
+            </select> -->
+        </div>
+    <button id="delete"></button>
+    </div>
+    <div id="note">
+        <ul id="notes"><h3>Additional Notes</h3></ul>
+        <li>A licensed pharmacy would be delivering your order basis availability of product & fastest delivery.</li>
+        <li>Prices are indicative and may change after billing</li>
+        <li>PharmEasy is a technology platform to connect sellers and buyers and is not involved in sales of any product.</li>
+        <li>Offer for sale on the products and services are provided/sold by the sellers only.</li>
+    </div>
+    </div>
+    <div id="Qcart">
+        <button id="promobutton"><i class="fas fa-tags"></i>Apply Coupon</button>
+        <input type="text" id="pcode" placeholder="type promo code">
+        <button id="adas" onclick="window.location.href ='deliveryAdd.html' "  target="_blank">Select Delivery Address</button>
+        <button id="changeadd" onclick="window.location.href ='deliveryAdd.html' ">Change Address</button>
+        <div id="addressadded">
+            <p>Send to -</p>
+        </div>
+        
+        <button id="adas" onclick="window.location.href ='payment.html'">Procced To Pay</button>
+    </div>
+
+</div> 
+
+</body>
+</html>
+<script src="cartpage.js"></script>

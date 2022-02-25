@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUP</title>
+    <link rel="icon" type="image" href="orderimage/tittle.png">
+    <link rel="stylesheet" href="login.css">
+     
+</head>
+<body>
+    <div id="container">
+        <div class="main">
+
+         <form class="page">
+            <p>Username</p>
+            <input id="user" type="text" placeholder="enter username">
+            <p>Password</p>
+            <input id="pass" type="password" placeholder="enter password">
+            <button class="btn" type="submit">Login</button>
+
+            <h6 class="small">Not a member?
+                <a href="signup.html">SignUp</a>
+            </h6>
+        </form>
+         
+    </div>
+</body>
+</html>
+
+<script>
+
+    document.querySelector("form").addEventListener("submit", signin);
+
+    var regdUsers = JSON.parse(localStorage.getItem("userDataBase"));
+
+  function signin(event){
+     
+    event.preventDefault();
+    var user = document.querySelector("#user").value
+    var pass = document.querySelector("#pass").value
+      
+    
+    for(var i=0; i<regdUsers.length; i++)
+    {
+
+        var flag=false;  
+        if(user == []){
+        alert("Please fill username")
+        flag=true;
+        break;
+       }
+        else if(pass == []){
+        alert("Please fill password")
+        flag=true;
+        break;
+       }
+        else  if(regdUsers[i].username == user && regdUsers[i].password == pass)
+          {
+            window.location.href="Homepage.html"
+            flag=true;
+            alert("login successfully")
+            break;
+          }
+     
+    }
+    if(flag==false){
+        alert("Invaild Username or Password")
+      
+      }
+
+  }
+
+
+
+</script>

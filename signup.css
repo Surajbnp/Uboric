@@ -1,0 +1,80 @@
+#container{
+    height: 700px;
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(to right top, #a6c1c7, #237976, #1c8488, #9dbfc7);
+
+ 
+}
+#container > img{
+    width: 100%;
+}
+
+.main{
+ position: absolute;
+ top: 18%;
+ left: 38%;
+ width: 25%;
+ height: 500px;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12)
+   0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border: 2px solid black;
+ 
+}
+.page{
+    width: 80%;
+    height: 300px;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+.page > p{
+    font-family:monospace;
+    margin: 40px 0 0 18px;
+    width: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    height: 20px;
+    color: black;
+    
+}
+.page > input{
+   border: none;
+   outline: none;
+   width: 75%;
+   height: 1px;
+   padding: 20px 60px;
+   margin: 10px 0 0 10px;
+   border-radius: 40px;
+   padding: 2px;
+   background-color: rgb(247, 223, 223);
+   border: 1px solid grey;
+   font-size: 15px;
+   padding: 20px;
+   color: black;
+}
+.btn{
+    border: none;
+    width: 50%;
+    height:35px;
+    background-color: #161612;
+    color:white;
+    font-weight: 600;
+    margin: 35px 0 0 65px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    width: 51%;
+    height: 36px;
+ }
+
+.small{
+   font-size: 12px;
+   font-family: cursive;
+   margin: 30px 0 0 0px;
+   color: white;
+}

@@ -1,0 +1,205 @@
+body {
+    margin: 0 20px 0 20px;
+    padding-top: 30px;
+    /* border: 1px solid rgb(190, 26, 26); */
+}
+#container1 {
+     width: 90%;
+     margin: 100px 0px 50px 30px;
+    /* border:1px solid rgb(128, 160, 11) ; */
+     display: flex;
+     padding:20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#allinfo{
+    /* border :1px solid tomato; */
+    width: 70%;
+}
+ #Prosec {
+    width: 90%;
+    height: 250px;
+    border :1px solid rgb(221, 230, 224);
+    display: flex;
+    padding :20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#image {
+    /* border :1px solid blue; */
+    width: 30%;
+    height: 100%;
+    padding: 50px;
+}
+#text {
+    width: 63%;
+    height: 100%;
+    margin : 10px 10px 10px 20px;
+    height: 90%;
+    /* border :1px solid rgb(255, 0, 13); */
+}
+#rating {
+    display: flex;
+    width: 300px;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin-top: -30px;
+}
+#price {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: -20px;
+    margin-bottom: -25px;
+}
+p,h4,ul,li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 93, 106);
+    margin-right: 5px;
+}
+ul {
+    margin-left: -40px;
+}
+#des {
+    /* border :1px solid rgb(255, 0, 13); */
+    width: 90%;
+}
+#linet{
+    text-decoration: line-through;
+}
+h4{
+    margin-bottom: -10px;
+}
+span{
+    line-height: 50px;
+    margin-right: 20px;
+}
+#images {
+    /* border: 1px solid red; */
+    width: 120px;
+    padding :20px 30px 20px 50px;
+    height:200px ;  
+    border: 1px solid rgb(192, 183, 183);  
+    border-radius: 5px;        
+}
+p,li{
+    font-size: 12px;
+    line-height: 20px;
+}
+#bg {
+    height: 20px;
+    margin: 10px 10px;
+    font-size: 10px;
+    color: white;
+    /* border :1px solid red; */
+    padding :2px;
+    background-color: rgb(249,140,142);
+    background-image: url('');
+    background-image: url("https://cutewallpaper.org/24/blank-banner-png/orange-blank-banner-hd-png-transparent-background-free-download-44831--freeiconspng.png");
+}
+button,#qty {
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    color: white;
+    background-color: #1e516c;
+    border: 0px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+ #Qcart {
+    position:fixed;
+    left: 65%;
+    width: 25%;
+    /* border: 1px solid purple; */
+    padding: 20px;
+    height: 300px;
+    
+}
+#icount {
+    font-size: 15px;
+     /* border: 1px solid purple; */
+}
+#Bcart {
+    width :100%;
+    text-align: center;
+     /* border: 1px solid purple; */
+}
+.offer {
+    color: rgb(60,199,160);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 8px;
+}
+@media only screen and (min-width:0px) and (max-width:320px)
+        {
+            #text {
+                width: 50%;
+                height: 100%;
+                margin : 10px 10px 10px 20px;
+                height: 90%;
+                /* border :1px solid rgb(255, 0, 13); */
+            }
+            h4 {
+                font-size: 10px;
+            }
+            p{
+                font-size: 8px;
+            }
+            button,#qty {
+                /* border: 1px solid red; */
+                padding: 5px 8px;
+                font-weight: 100;
+                font-size: 10px;
+                border-radius: 5px;
+                margin-top: 5px;
+            }
+            #image {
+                /* border :1px solid blue; */
+                width: 20px;
+                height: 100%;
+                padding: 50px;
+            }
+            #Prosec {
+                display: inline;
+                width: 30%;
+                height: 50px;
+                border: 1px solid red;
+            }
+           
+            
+        }
+
+        @media only screen and (min-width:321px) and (max-width:720px)
+        {
+            #text {
+                width: 50%;
+                height: 100%;
+                margin : 10px 10px 10px 20px;
+                height: 90%;
+                /* border :1px solid rgb(255, 0, 13); */
+            }
+            h4 {
+                font-size: 10px;
+            }
+            p{
+                font-size: 8px;
+            }
+            button,#qty {
+                /* border: 1px solid red; */
+                padding: 5px 8px;
+                font-weight: 100;
+                font-size: 10px;
+                border-radius: 5px;
+                margin-top: 5px;
+            }
+            #image {
+                /* border :1px solid blue; */
+                width: 20px;
+                height: 100%;
+                padding: 50px;
+            }
+            #Prosec {
+                display: inline;
+                width: 30%;
+                height: 50px;
+              
+            }
+        }

@@ -1,0 +1,155 @@
+
+        body {
+           margin: 0 100px 0 100px;
+           /* border: 1px solid rgb(190, 26, 26); */
+        }
+        #section{
+            display: flex;
+        }
+        #cartside {
+            width: 60%;
+            /* border: solid pink; */
+        }
+        #main {
+            padding: 20px;
+            border :0.5px solid rgb(208, 207, 219);
+            width: 90%; 
+            height: 120px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+        }
+        img {
+            height: 40%;
+            margin-top: 10px;
+        }
+        #imgdiv {
+            margin-top: 100px;
+        }
+        .textdiv {
+            width: 70%;
+            /* border: 1px solid red; */
+            margin-left: 50px;  
+            margin-top: -19px;
+        }
+        #delete {
+            width: 50px;
+            color: black;
+            height: 50px;
+            /* border: solid red; */
+            margin: 10px 10px 0px 30px;
+            background-color: white
+        }
+        p,h3,h5,li{
+            font-family: Arial, Helvetica, sans-serif;
+            /* color: rgb(98, 105, 120); */
+            color: rgb(62, 63, 65);
+            margin-right: 5px;
+        }
+        #h3 {
+            margin-top: 100px;
+        }
+        p,li{
+            font-size: 13px;
+        }
+        #note {
+            margin-top: 50px;
+        }
+        #notes {
+            margin-left: -40px;
+        }
+
+        #Qcart {
+        margin-left: 20px;
+        width: 30%;
+        /* border: 1px solid purple; */
+        padding: 20px;
+        margin-top: -80px;
+        }
+        button,#icount {
+        /* border: 1px solid red; */
+        padding: 10px 10px;
+        color: white;
+        background-color: #1e516c;
+        border: 0px;
+        font-weight: 700;
+        border-radius: 5px;
+        margin: 20px 0 10px 0;
+        width: 90%;
+        text-align: center;
+        }
+        #pcode {
+        height: 25px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin: 0px 0 10px 0;
+        width: 80%;
+        border: 1px solid rgb(206, 193, 193);
+        }
+        #addressadded {
+            border :1px solid rgb(231, 213, 213);
+            border-radius: 10px;
+            line-height: 5px;
+            font-size: 15px;
+            color: black;
+            padding :10px;
+            width: 80%;
+        }
+        #gotocart{
+            width: 200px;
+            margin-top: 10px;
+        }
+
+        
+ @media only screen and (min-width:0px) and (max-width:320px)
+ {
+     body {
+         margin: 0 10px 0 10px;
+         /* border: 1px solid rgb(190, 26, 26); */
+      }
+     #main {
+         height: 250px;   
+         width: 50px;
+         display:contents;
+         font-size: 15px;   
+     }
+     #addressadded{
+         line-height: 15px;
+         font-size: 10px;
+         width: 100%;
+     }
+     img{
+         display: none;
+     }
+     #gotocart{
+         width: 100px;
+     }
+     h3{
+         font-size: 15px;
+     }
+   
+     
+ }
+
+ @media only screen and (min-width:321px) and (max-width:720px)
+ {
+     body {
+         margin: 0 10px 0 10px;
+         /* border: 1px solid rgb(190, 26, 26); */
+      }
+     #main {
+         height: 250px;   
+         display:contents         
+     }
+     #addressadded{
+         line-height: 15px;
+         font-size: 10px;
+     }
+     #imgdiv {
+         height: 5%;   
+     }
+     #gotocart{
+         width: 100px;
+     }
+   
+ }

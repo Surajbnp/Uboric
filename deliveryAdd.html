@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="deliveryAdd.css">
+  </head>
+  <body>
+    <form id ="address">
+        <h2>Add New Address</h2>
+      <h4>Bill to</h4>
+      <input class="input" id="name" type="text" placeholder="Enter Name" />
+      <p>The bill will be prepared in this Name</p>
+      
+      <h4>Mobile Number</h4>
+      <input class="input" id="Mnum" type="number" placeholder="Enter Mobile Number" />
+      <p>For all delivery related communication</p>
+      
+      <h4>Full Address*</h4>
+      <input class="input" id="addres" type="text" />
+      <p>The bill will be prepared in this Name</p>
+       
+      <h4>Pin Code</h4>
+      <input class="input" id="pin" type="number" placeholder="Enter pin code" />
+        
+      <h4>Address Type</h4>
+      <select name="Atype" id="atype">
+        <option value="home">Home</option>
+        <option value="office">Office</option>
+        <option value="other">Other</option>
+      </select>
+        <br><br>
+      <input type="submit" value="SAVE" id="sub" />     
+      <br>
+      <!-- <input type="submit" value="Go To Cart" id="gotocart" onclick="window.location.href ='cartpage.html'"></input> -->
+</form>
+<button id="gotocart" onclick="window.location.href ='cartpage.html'">Go To Cart</button>
+  </body>
+</html>
+<script src="deliveryAdd.js"></script>

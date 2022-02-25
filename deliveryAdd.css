@@ -1,0 +1,73 @@
+
+       #address{
+           /* border :1px solid ; */
+           width: 40%;
+           margin:auto;
+           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           padding-left: 20px;
+           padding-top: 20px;
+           border-radius:10px ;
+       }
+       p{
+           font-size: 12px;
+           margin-top: 5px;
+       }
+       .input {
+           height: 30px;
+           width: 50%;
+           font-size: 15px;
+           border-radius: 5px;
+           border :0.5px solid rgb(211, 201, 201);
+           margin-top: -20px;
+       }
+       h4,p,#atype,h2 {
+           font-family: Arial, Helvetica, sans-serif;
+           color: rgb(83, 93, 106);
+       }
+       #atype{
+           padding:10px;
+           border-radius: 5px;
+           width: 100px;
+
+       }
+       #sub {
+          padding: 10px 30px;
+          color: white;
+          background-color: #1e516c;
+          border: 0px;
+          font-weight: 700;
+          border-radius: 5px;
+          margin: 20px 0 10px 0;
+          text-align: center;
+       }
+       #gotocart {
+          padding: 10px 30px;
+          color: white;
+          background-color: #1e516c;
+          border: 0px;
+          font-weight: 700;
+          border-radius: 5px;
+          margin: 10px 0 0 600px;
+          text-align: center;
+       }
+
+       @media only screen and (min-width:0px) and (max-width:320px)
+       {
+        #address{
+            width: 100%;
+        }
+        #gotocart{
+            margin-left: 50px;
+        }
+           
+       }
+
+       @media only screen and (min-width:321px) and (max-width:720px)
+       {
+        #address{
+            width: 70%;
+        }
+        #gotocart{
+            margin-left: 120px;
+        }
+       }

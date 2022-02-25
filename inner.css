@@ -1,0 +1,258 @@
+.container{
+   
+    
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+}
+.products{
+   
+    width: 65%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#category{
+    font-size: 13px;
+    color: grey;
+    padding-left: 20px;
+}
+h1{
+    color: teal;
+    padding-left: 20px;
+    font-size: 27px;
+}
+.h3{
+    color: teal;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+p{
+    padding-left: 23px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#sorting_col{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 150px  300px;
+    justify-content: space-between;
+}
+
+
+#product_col{
+   
+    display: grid;
+    grid-template-columns: repeat(3,260px);
+    grid-template-rows: repeat(6,430px);
+    grid-gap: 30px;
+}
+#skin{
+    font-family: 'Dongle', sans-serif;
+    padding-left: 16px;
+    width: 200px;
+}
+select{
+    width: 240px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+#text{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(15, 80, 80)
+}
+.end_page{
+    margin-top: 70px;
+}
+
+.ending{
+    width: 62%;
+    height: 300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: 280px;
+    justify-content: space-around;
+}
+.ending > div{
+    display: grid;
+    grid-template-columns: repeat(1,200);
+    grid-template-rows: 80px 130px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.small_para{
+    line-height: 22px;
+    margin-left: 6px;
+}
+span{
+    color: grey;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 17px;
+}
+.head{
+    font-size: 19px;
+    font-family: Georgia, serif	;
+    padding-left: 4px;
+}
+.photo{
+    width: 25%;
+    height: 60%;
+    display: block;
+    margin-top: 21px;
+    margin-left: 4px;
+}
+
+.download{
+    margin-left: 120px;
+    width: 94%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.phone{
+    width: 22%;
+    margin: 30px auto;
+}
+.app_store{
+    width: 65%;
+    height: 180px;
+    margin-top: 40px;
+   
+    display: grid;
+    grid-template-rows: 60px 110px;
+}
+.app_store> div{
+    width: 50%;
+}
+.download_app{
+    display: grid;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: 60px;
+    justify-content: space-between;
+}
+.download_app > div{
+    margin-top: 6px;
+    border-radius: 4px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 15px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    
+}
+hr{
+    color: silver;
+}
+
+.follow_us{
+    width: 90%;
+    margin:auto;
+    margin-left: 90px;
+    height: 700px;
+    background-color: rgb(244,247,251);
+    display: grid;
+    grid-template-columns: 250px 250px 260px 320px;
+    grid-template-rows: 530px 150px;
+    justify-content: space-around;
+}
+
+.follow_us > div{
+
+    line-height: 16px;                           
+}
+#pay_partner{
+    grid-area: 2/1/3/5;
+    display: grid;
+    grid-template-rows: 30px 70px;
+}
+#pay_partner > div{
+    font-size: 21px;
+    color: teal;
+    padding-left: 18px;
+    padding-top: 7px;
+    
+}
+.follow_us > div >p{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: grey;
+}
+.head3{
+    padding-left: 30px;
+    color: teal;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+#logo > div{
+    width: 8%;
+}
+.photo2{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+#one{
+    flex-grow: 1;
+    padding-top: 18px;
+}
+
+.para4 :hover{
+    overflow: hidden;
+}
+.image2{
+    transition:  0.7s all ease-in-out;
+}
+.para4:hover .image2{
+    transform: scale(1.08);
+}
+
+#container{
+    width: 20%;
+    margin-left: 40px;
+    height: 500px;
+    border-radius: 8px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#small-text{
+    padding-left: 12px;
+}
+.head-filter{
+    color: teal;
+    font-size: 32px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#cat{
+    padding-left: 20px;
+    color: teal;
+    font-size: 22px;
+}
+.name{
+    padding-top: 7px;
+    padding-left: 20px;
+    font-family: 'Noto Serif', serif;
+}
+#small-name{
+    padding-left: 166px;
+}
+hr{
+    width: 270px;
+}

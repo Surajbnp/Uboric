@@ -1,0 +1,160 @@
+body {
+    margin: 0 20px 0 20px;
+    padding-top: 30px;
+    /* border: 1px solid rgb(190, 26, 26); */
+}
+
+#images {                         
+    width: 50px;
+    height:50px ;  
+    border-radius: 5px;
+    margin-top: 0px;     
+}
+
+#wallet, #amazon, #phonepe, #Cash ,#mobi{
+    width: 90%;
+    height: 40px;
+    border :1px solid rgb(221, 230, 224);
+    display: flex;
+    padding :30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#container1 {
+     width: 90%;
+     margin: 100px 0px 50px 30px;
+    /* border:1px solid rgb(128, 160, 11) ; */
+     display: flex;
+     padding:20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#allinfo{
+    /* border :1px solid tomato; */
+    width: 70%;
+}
+ 
+#image {
+    /* border :1px solid blue; */
+    width: 30%;
+    height: 100%;
+    /* padding: 50px; */
+}
+#text {
+    width: 63%;
+    margin : -20px 10px 10px 20px;
+    height: 90%;
+    /* border :1px solid rgb(255, 0, 13); */
+}
+
+p,h4,ul,li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 93, 106);
+    margin-right: 5px;
+}
+
+h4{
+    margin-bottom: -10px;
+}
+
+
+p,li{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+button,#qty {
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    color: white;
+    background-color: teal;
+    border: 0px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+ #Qcart {
+    position: fixed;
+    left: 65%;
+    width: 25%;
+    border: 1px solid rgb(170, 167, 170);
+    padding: 20px;
+    height: 300px;    
+    border-radius: 10px;
+}
+
+#p,#q, #t {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#n{
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width:0px) and (max-width:320px)
+     {
+        #wallet, #amazon, #phonepe, #Cash ,#mobi{
+            width: 70%;
+            height: 130px;
+            display: flex;
+            padding :10px;
+            font-size: 12px;           
+        }
+        #wallet{
+            display:block;
+            height: 230px;
+        }
+        p{
+            font-size: 10px;
+            line-height: 12px;
+        }
+        #images{
+            width: 5px;
+            height: 10px;
+            margin-bottom: 35px;
+        }
+        #Qcart {
+            height: 400px;
+            font-size: 12px;
+            width: 18%;
+        }
+        #p,#n,#q,#t{
+            font-size: 10px;
+        }
+      
+         
+     }
+
+     @media only screen and (min-width:321px) and (max-width:720px)
+     {
+        #wallet, #amazon, #phonepe, #Cash ,#mobi{
+            width: 70%;
+            height: 130px;
+            display: flex;
+            padding :10px;
+            font-size: 12px;           
+        }
+        #wallet{
+            display:block;
+            height: 180px;
+        }
+        p{
+            font-size: 10px;
+            line-height: 12px;
+        }
+        #images{
+            width: 5px;
+            height: 10px;
+            margin-bottom: 35px;
+        }
+        #Qcart {
+            height: 400px;
+            font-size: 12px;
+            width: 18%;       
+        }
+        #p,#n,#q,#t{
+            font-size: 12px;
+        }     
+     }
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUP</title>
+    <link rel="icon" type="image" href="">
+    <link rel="stylesheet" href="signup.css">
+     
+</head>
+<body>
+    <div id="container">
+
+        <div class="main">
+
+           <form class="page">
+            <p>Username</p>
+            <input class="user" type="text" placeholder="enter username">
+            <p>Password</p>
+            <input class="pass" type="password" placeholder="enter password">
+            <p>Mobile</p>
+            <input class="mbl" type="number" placeholder="enter mobile">
+            <button class="btn" type="submit">SignUp</button>
+
+
+            <h6 class="small">Allready a member? 
+                <a href="login.html">Login</a>
+            </h6>
+           </form>
+         
+    </div>
+</body>
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit", formSubmit);
+        var userStack=JSON.parse(localStorage.getItem("userDataBase"))||[];
+        function formSubmit(event){
+          event.preventDefault();
+
+          var user = document.querySelector(".user").value 
+          var pass = document.querySelector(".pass").value 
+          var mbl = document.querySelector(".mbl").value 
+
+          var flag=true;
+          if(user == []){
+              alert("Please fill username")
+              flag=false;
+          }
+
+          else if(pass == []){
+              alert("Please fill password")
+              flag=false;
+          }
+
+          else if(mbl == [] || mbl.length >10 || mbl.length < 10){
+              alert("Invalid mobile number")
+              flag=flase;
+          }
+
+          else if(flag == true){
+     
+          var userData = {
+              username: user,
+              password: pass,
+              mobile: mbl,
+          };
+
+          userStack.push(userData);
+
+          localStorage.setItem("userDataBase", JSON.stringify(userStack))
+          window.location.href="login.html"
+          alert("Sign-up succsessfully...")  
+
+        }   
+
+    }
+    
+</script>

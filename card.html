@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+  </head>
+  <body>
+    <div id ="address">
+        <h2>Enter Card Details</h2>
+      <h4>Name</h4>
+      <input class="input" id="name" type="text" placeholder="Enter Name" />
+          
+      <h4>Card Number</h4>
+      <input class="input" id="Mnum" type="number" placeholder="Enter Mobile Number" />    
+       
+      <h4>Expire Date</h4>
+      <input class="input" id="pin" type="text" placeholder="Enter pin code" />
+        
+      <h4>CVV </h4>
+      <input class="input" id="pin" type="number" placeholder="Enter pin code" />
+      
+        <br><br>
+    
+      <button id="sub" onclick="window.location.href ='loading.html'"> Submit
+      </button>
+      <br>
+      <!-- <input type="submit" value="Go To Cart" id="gotocart" onclick="window.location.href ='cartpage.html'"></input> -->
+</div>
+  </body>
+</html>
+
+<script>
+
+document.querySelector("#sub").addEventListener("onclick", function(){
+    
+    window.location.href = "loading.html";
+}) 
+</script>
+
+
